@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.maven_demo1.TestMEApp_SignUp">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="signup"/>
+          <include name="cart"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.maven_demo1.TestMEApp_SignUp -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
