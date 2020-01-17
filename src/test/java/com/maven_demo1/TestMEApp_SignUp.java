@@ -54,7 +54,7 @@ public class TestMEApp_SignUp {
 
     driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
-driver.get("http://10.232.237.143:443/TestMeApp/fetchcat.htm");
+    driver.get("http://10.232.237.143:443/TestMeApp/fetchcat.htm");
 
     String str5=  driver.getTitle();
 

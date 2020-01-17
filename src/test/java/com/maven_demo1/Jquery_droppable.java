@@ -24,8 +24,10 @@ WebDriver driver;
 	  
 	  System.setProperty("webdriver.chrome.driver","C:\\Driver99999\\chromedriver.exe");
 	  driver = new ChromeDriver();
-	  driver.get("https://jqueryui.com/droppable/");
 	  driver.manage().window().maximize();
+	  driver.get("https://jqueryui.com/droppable/");
+	 
+	  
   }
 
   @AfterTest
