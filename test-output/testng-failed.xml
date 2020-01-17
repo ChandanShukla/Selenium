@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.maven_demo1.TestMEApp_SignUp">
+      <class name="com.maven_demo1.HDFC_Bank">
         <methods>
-          <include name="openBrowser"/>
-          <include name="signup"/>
-          <include name="cart"/>
-          <include name="login"/>
+          <include name="f"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
         </methods>
-      </class> <!-- com.maven_demo1.TestMEApp_SignUp -->
+      </class> <!-- com.maven_demo1.HDFC_Bank -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
