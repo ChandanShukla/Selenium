@@ -1,25 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="32337" started-at="2020-01-17T05:55:16Z" finished-at="2020-01-17T05:55:48Z">
+  <suite name="Suite_paras" duration-ms="40" started-at="2020-01-17T07:06:16Z" finished-at="2020-01-17T07:06:16Z">
     <groups>
+      <group name="Scooter">
+        <method signature="Grouping.Scooter1()[pri:0, instance:com.maven_demo1.Grouping@174d20a]" name="Scooter1" class="com.maven_demo1.Grouping"/>
+        <method signature="Grouping.Scooter2()[pri:0, instance:com.maven_demo1.Grouping@174d20a]" name="Scooter2" class="com.maven_demo1.Grouping"/>
+      </group> <!-- Scooter -->
+      <group name="Car">
+        <method signature="Grouping.Car1()[pri:0, instance:com.maven_demo1.Grouping@174d20a]" name="Car1" class="com.maven_demo1.Grouping"/>
+        <method signature="Grouping.Car2()[pri:0, instance:com.maven_demo1.Grouping@174d20a]" name="Car2" class="com.maven_demo1.Grouping"/>
+        <method signature="Grouping.Sedan1()[pri:0, instance:com.maven_demo1.Grouping@174d20a]" name="Sedan1" class="com.maven_demo1.Grouping"/>
+      </group> <!-- Car -->
+      <group name="Sedan Car">
+        <method signature="Grouping.Sedan1()[pri:0, instance:com.maven_demo1.Grouping@174d20a]" name="Sedan1" class="com.maven_demo1.Grouping"/>
+      </group> <!-- Sedan Car -->
     </groups>
-    <test name="Default test" duration-ms="32337" started-at="2020-01-17T05:55:16Z" finished-at="2020-01-17T05:55:48Z">
-      <class name="com.maven_demo1.TestMeAPP_Windows">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.maven_demo1.TestMeAPP_Windows@32d992b2]" name="beforeTest" is-config="true" duration-ms="24729" started-at="2020-01-17T11:25:16Z" finished-at="2020-01-17T11:25:41Z">
+    <test name="Practice Grouping" duration-ms="40" started-at="2020-01-17T07:06:16Z" finished-at="2020-01-17T07:06:16Z">
+      <class name="com.maven_demo1.Grouping">
+        <test-method status="PASS" signature="Car1()[pri:0, instance:com.maven_demo1.Grouping@174d20a]" name="Car1" duration-ms="9" started-at="2020-01-17T12:36:16Z" finished-at="2020-01-17T12:36:16Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="f()[pri:0, instance:com.maven_demo1.TestMeAPP_Windows@32d992b2]" name="f" duration-ms="7587" started-at="2020-01-17T11:25:41Z" finished-at="2020-01-17T11:25:48Z">
+        </test-method> <!-- Car1 -->
+        <test-method status="PASS" signature="Car2()[pri:0, instance:com.maven_demo1.Grouping@174d20a]" name="Car2" duration-ms="1" started-at="2020-01-17T12:36:16Z" finished-at="2020-01-17T12:36:16Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.maven_demo1.TestMeAPP_Windows@32d992b2]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-01-17T11:25:48Z" finished-at="2020-01-17T11:25:48Z">
+        </test-method> <!-- Car2 -->
+        <test-method status="PASS" signature="Scooter1()[pri:0, instance:com.maven_demo1.Grouping@174d20a]" name="Scooter1" duration-ms="2" started-at="2020-01-17T12:36:16Z" finished-at="2020-01-17T12:36:16Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- com.maven_demo1.TestMeAPP_Windows -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- Scooter1 -->
+        <test-method status="PASS" signature="Scooter2()[pri:0, instance:com.maven_demo1.Grouping@174d20a]" name="Scooter2" duration-ms="0" started-at="2020-01-17T12:36:16Z" finished-at="2020-01-17T12:36:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scooter2 -->
+        <test-method status="PASS" signature="Sedan1()[pri:0, instance:com.maven_demo1.Grouping@174d20a]" name="Sedan1" duration-ms="1" started-at="2020-01-17T12:36:16Z" finished-at="2020-01-17T12:36:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sedan1 -->
+      </class> <!-- com.maven_demo1.Grouping -->
+    </test> <!-- Practice Grouping -->
+  </suite> <!-- Suite_paras -->
 </testng-results>

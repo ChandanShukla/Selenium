@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite_paras">
+
+   <test name="Practice Grouping">
+
+      <groups>
+
+         <define name="All">
+
+	   		 <include name="Car"/>
+
+	   		 <include name="Scooter"/>
+
+		 </define>
+
+	 	<run>
+
+	   		 <include name="All"/>
+
+		</run>
+
+   	 </groups>
+
+	 <classes>
+
+	      <class name="com.maven_demo1.Grouping" />
+
+	</classes>
+
+   </test>
+
+</suite>
